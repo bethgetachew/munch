@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  background-color: #d3e3eb;
+  color: #1411618;
+  line-height: 1.5;
+  font-size: 16px;
+  /* set column width */
+  width: 1100px;
+  /* The margin property creates space around the outside elements. it takes 4 values - top,right,bottom,left. 0 auto 0 auto sets the top & bottom to 0 margin and the left and right to automatically resize margibs to put content in the middle. */
+  margin: 0 auto 0 auto;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+header {
+  text-align: center;
+  margin: 60px 0;
+}
+
+nav {
+  margin: 60px 0 0 0;
+}
+
+/* Apply styles to links (a tags) inside the nav */
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #141618;
+  /* Remove underline from links */
+  text-decoration: none;
+  /* set to uppercase */
+  text-transform: uppercase;
+  padding: 0 40px 0 40px
+}
+
+nav a:hover {
+  color: #fac600
+}
+
+section {
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+div.post-content {
+  padding: 35px 240px;
+}
+
+/* Applies style only to anchor tags inside div elements with a class of post content  */
+div.post-content a {
+  color: £141618;
+}
+
+div.post-content a:hover {
+  color: #fac600;
+}
+
+div.post-details {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ADADAD;
+  border-top: 2px solid #ADADAD;
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #7e8081;
+}
+
+footer a {
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+/* Contact Page Styles */
+form did {
+  margin-bottom: 20px;
+}
+
+label {
+  /* Make the lables sit on top of the form fields */
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #B2B2B2;
+}
+
+input[type="email"], input[type="text"], textarea {
+  width: 100%;
+  border: 1px solid #B2B2B2;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Georgia", "Times New Roman", serif;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #fac600;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
